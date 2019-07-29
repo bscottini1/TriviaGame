@@ -1,23 +1,20 @@
 $(document).ready(function () {
-    // let n = Date.now();
-    // let x = n + (1000*60*2);
-    // let timerSec = ((x-n)/1000);
-    // let runTime = 
-    // function decrement(){
-    //     timerSec--;
-    //     setInterval(decrement), 1000;
-    // }
-    // console.log(timerSec);
-    let number = 120;
-    let numRun= run
+    let number = 5;
     let intervalID;
     function run() {
         function decrement() {
             number--;
+            $("#show-number").html("<h2>" + number + "</h2>");
+        }
         intervalID = setInterval(decrement, 1000);
+        }
+    window.onload = run();
+    
+    if (number === 0) {
+        stop();
     }
-}
-    $("#start").on("click", run);
-    $("#show-number").html("<h2>" + number + "</h2>");
+    function stop(){
+    clearInterval(intervalID);
+    }
 
-});
+ });
