@@ -1,5 +1,67 @@
 body {
     background: url(../images/baseballLarge.jpg);
-    /*(background-color:red;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100%
+}
 
+header1 {
+    color: navy;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#time {
+    color: navy;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+header2 {
+    color: navy;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+p {
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+div {
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+#submit {
+    width: 200px;
+    margin-bottom:20px;  
 }
